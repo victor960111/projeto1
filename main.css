@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Young Serif', serif;
+}
+
+header {
+    padding: 20px 0;
+    background-color:black;
+}
+
+header img{
+    height: 100px;
+    width: auto;
+}
+header  nav li {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 12px;
+    height: 40px;
+}
+header nav li a img{
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li a {
+    color:bisque;
+    text-decoration: none;
+
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+section img {
+    margin-right: 32px;
+    height: 500px;
+    width: 700px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p,
+form button, input, textarea {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 8px;
+}
+.social-links img{ 
+    height: 30px;
+    width: 35px;
+}
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+.social-links li a {
+    text-decoration: none;
+}
+#contact .container {
+    display: block;
+}
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+textarea, 
+button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(30, 28, 28);
+}
+
+input:focus, textarea:focus{
+    outline-color:black ;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 16px 0;
+}
